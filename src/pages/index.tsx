@@ -50,7 +50,7 @@ export default function Home() {
               </div>
               <div className="w-full h-full flex items-center justify-center relative z-10">
                 <Image
-                  src="/images/defaultPic.png"
+                  src="/images/defaultpic.png"
                   alt="Default Picture for Cyra"
                   width={300}
                   height={300}
