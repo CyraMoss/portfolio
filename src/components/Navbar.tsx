@@ -53,7 +53,7 @@ import {
       </NavigationMenuContent>
     </NavigationMenuItem>
     <NavigationMenuItem>
-          <Link href="/about" legacyBehavior passHref>
+          <Link href="#about" legacyBehavior passHref>
             <NavigationMenuLink className={navigationMenuTriggerStyle()}>
               About
             </NavigationMenuLink>

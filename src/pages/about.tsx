@@ -2,9 +2,6 @@ import React from 'react'
 import Image from 'next/image'
 import { Button } from '~/components/ui/button'
 import { Download } from 'lucide-react'
-import Link from 'next/link'
-
-
 
 export default function About() {
 

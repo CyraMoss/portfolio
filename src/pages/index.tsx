@@ -4,6 +4,8 @@ import Navbar from "~/components/Navbar";
 import Image from "next/image";
 import { Github, Linkedin, Send } from 'lucide-react';
 import About from "./about";
+import Contact from "./contact";
+import Work from "./work";
 
 export default function Home() {
   return (
@@ -58,7 +60,9 @@ export default function Home() {
             </div>
           </div>
         </div>
-        <About/>
+        <About />
+        <Work/>
+        <Contact/>
       </main>
     </>
   );
