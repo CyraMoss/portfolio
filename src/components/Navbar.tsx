@@ -8,6 +8,7 @@ import {
     NavigationMenuTrigger,
     navigationMenuTriggerStyle,
   } from "../components/ui/navigation-menu"
+  import { DarkModeToggle } from "./darkModeToggle";
 
   const Work: { title: string; href: string; description: string }[] = [
     {
@@ -65,6 +66,8 @@ import {
             </NavigationMenuLink>
           </Link>
         </NavigationMenuItem>
+
+        <DarkModeToggle/>
   </NavigationMenuList>
 </NavigationMenu>
 
